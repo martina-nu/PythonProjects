@@ -76,7 +76,7 @@ def main(*args, **kwargs):
     print()
 
     # Registrar un alumno
-    alumnoNuevo=Alumno(nombreAlumno='Martina', apellidoAlumno=' Nunez')
+    alumnoNuevo=Alumno(nombreAlumno='Martina', apellidoAlumno='Apellido')
     print("DATOS DEL ALUMNO REGISTRADO:")
     print("Nombre: " + alumnoNuevo.nombreAlumno)
     print("Apellido: " + alumnoNuevo.apellidoAlumno)
